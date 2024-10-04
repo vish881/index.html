@@ -1,0 +1,241 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/header-image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    margin: auto;
+    justify-content: space-between;
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:calc(100% - 62px);
+    flex-direction: column;
+    position: relative;
+    font-family:  sans-serif;
+    gap: 40px;
+    padding: 0 30px;
+    text-align: center;
+}
+.hero> :first-child{
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logos{
+    margin-top: 25px;
+}
+.eng{
+    word-spacing: 10px;
+}
+
+.btn-red{
+    
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 24px;
+    border: none;
+}
+
+
+
+
+
+
+
+.main input{
+    font-size: 20px;
+    padding: 8px 101px 10px 40px;
+    border: 1px dotted white;
+    background-color: rgba(23 , 23 , 23 , 0.2);
+}
+.btn-red-sn{
+    font-family: serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid red;
+    background-color: RED;
+    color: WHITE;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.text:hover {
+    background-color: white;
+    transition: 50ms;
+}
+
+
+
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+}
+
+
+.secimg img{
+    padding-top: 70px;
+    width: 30vw;
+    padding-right: 100px;
+}
+.section.first > div {
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 50px;
+    padding-right: 80px;
+    font-weight: bolder;
+}
+
+.second{
+    font-size: 22px;
+    font-weight: 400;
+}
+.faq{
+    color: white;
+    padding: 100px;
+    background-color: black;
+}
+.faq h3{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.faqbox{
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(105, 102, 102, 0.685);
+    padding: 20px;
+    max-width: 50vw;
+    margin: 10px auto;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgba(73, 71, 71, 0.671);
+    transition: 50ms;
+}
+.botom{
+    color: white;
+    
+    text-align: center;
+}
+.texts{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.footer h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.row{
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px , 0;
+}
+.footer .language-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.copyright-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 4px;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
